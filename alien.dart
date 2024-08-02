@@ -7,4 +7,10 @@ class Alien {
 
   // Constractors
   Alien(this.eyes, this.teeth, this.feet, this.skinColor);
+
+  // Methods
+  void move() {
+    // normal alien just moves
+    print('alien is moving');
+  }
 }
