@@ -1,3 +1,6 @@
+/*
+  Ali Karimi
+*/
 class Alien {
   // Variables
   int eyes;
