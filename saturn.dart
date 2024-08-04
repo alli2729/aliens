@@ -8,7 +8,12 @@ class Saturn extends Alien {
   int tails;
 
   // Constractors
-  Saturn(super.eyes, super.teeth, super.feet, super.skinColor, this.tails);
+  Saturn(
+      {required super.eyes,
+      required super.teeth,
+      required super.feet,
+      required super.skinColor,
+      required this.tails});
 
   // Methods
   @override

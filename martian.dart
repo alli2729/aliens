@@ -8,7 +8,12 @@ class Martian extends Alien {
   int horns;
 
   // Constractors
-  Martian(super.eyes, super.teeth, super.feet, super.skinColor, this.horns);
+  Martian(
+      {required super.eyes,
+      required super.teeth,
+      required super.feet,
+      required super.skinColor,
+      required this.horns});
 
   // Methods
   @override

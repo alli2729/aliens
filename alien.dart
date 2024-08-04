@@ -9,7 +9,11 @@ class Alien {
   String skinColor;
 
   // Constractors
-  Alien(this.eyes, this.teeth, this.feet, this.skinColor);
+  Alien(
+      {required this.eyes,
+      required this.teeth,
+      required this.feet,
+      required this.skinColor});
 
   // Methods
   void move() {
