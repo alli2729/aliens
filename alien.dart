@@ -3,16 +3,16 @@
 */
 class Alien {
   // Variables
-  int eyes;
-  int teeth;
-  int feet;
-  String skinColor;
+  final int numberOfEyes;
+  final int numberOfTeeth;
+  final int numberOfFeet;
+  final String skinColor;
 
   // Constractors
   Alien(
-      {required this.eyes,
-      required this.teeth,
-      required this.feet,
+      {required this.numberOfEyes,
+      required this.numberOfTeeth,
+      required this.numberOfFeet,
       required this.skinColor});
 
   // Methods

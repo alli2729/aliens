@@ -9,9 +9,9 @@ class Saturn extends Alien {
 
   // Constractors
   Saturn(
-      {required super.eyes,
-      required super.teeth,
-      required super.feet,
+      {required super.numberOfEyes,
+      required super.numberOfTeeth,
+      required super.numberOfFeet,
       required super.skinColor,
       required this.tails});
 

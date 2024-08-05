@@ -9,9 +9,9 @@ class Martian extends Alien {
 
   // Constractors
   Martian(
-      {required super.eyes,
-      required super.teeth,
-      required super.feet,
+      {required super.numberOfEyes,
+      required super.numberOfTeeth,
+      required super.numberOfFeet,
       required super.skinColor,
       required this.horns});
 
